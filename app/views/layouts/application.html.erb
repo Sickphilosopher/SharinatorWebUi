@@ -8,21 +8,29 @@
 		<meta charset="utf-8" />
 
 		<!-- Uncomment to make IE8 render like IE7 -->
-		<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- Set the viewport width to device width for mobile -->
 		<title>
-			<%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+			<%= content_for?(:title) ? yield(:title) : "Untitled" %>
+		</title>
 
-  	<%= stylesheet_link_tag "application" %>
-  	<%= javascript_include_tag "vendor/custom.modernizr" %>
-    <%= csrf_meta_tags %>
-  </head>
+		<%= stylesheet_link_tag "application" %>
+		<%= javascript_include_tag "vendor/custom.modernizr" %>
+		<%= csrf_meta_tags %>
+	</head>
 
-  <body>
-
-    <%= yield %>
-
-  </body>
+	<body>
+		<div class="row">
+			<div class="small-2 large-4 columns">test</div>
+			<div class="small-4 large-4 columns">test</div>
+			<div class="small-6 large-4 columns">test</div>
+		</div>
+		<div class="row">
+		    <div class="large-3 columns">fuck</div>
+		    <div class="large-6 columns">test</div>
+		    <div class="large-3 columns">you</div>
+		</div>
+		<%= yield %>
+	</body>
 </html>
