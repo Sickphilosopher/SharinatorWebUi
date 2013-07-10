@@ -1,5 +1,6 @@
 SharinatorWebUi::Application.routes.draw do
-  get "root/root"
+    root "root/root"
+	get "root/root"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
