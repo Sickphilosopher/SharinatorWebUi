@@ -17,6 +17,9 @@
         </option>
         <option name="RIGHT_MARGIN" value="135" />
         <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
+        <XML>
+          <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+        </XML>
         <codeStyleSettings language="CSS">
           <indentOptions>
             <option name="CONTINUATION_INDENT_SIZE" value="4" />
