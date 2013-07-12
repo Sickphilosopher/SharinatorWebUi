@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/root/root.html.erb" afterPath="$PROJECT_DIR$/app/views/root/root.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="SharinatorWebUi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,8 +21,9 @@
     <file path="/a.scss" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373497409348" ignored="false" />
     <file path="/a.sql" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373497420348" ignored="false" />
     <file path="/a.xml" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373497454666" ignored="false" />
-    <file path="/routes.rb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373499615959" ignored="false" />
-    <file path="/root.html.erb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373500940956" ignored="false" />
+    <file path="/routes.rb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373654360284" ignored="false" />
+    <file path="/root.html.erb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373654182561" ignored="false" />
+    <file path="/vk_controller.rb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373654086977" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,37 +43,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="root_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/root_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="110" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
+            <state line="3" column="22" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="root.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="root.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/root/root.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="24" selection-start="135" selection-end="135" vertical-scroll-proportion="0.17435898">
+            <state line="3" column="31" selection-start="113" selection-end="113" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="root.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/root.js.coffee">
+      <file leaf-file-name="vk_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/vk_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="2" column="32" selection-start="77" selection-end="77" vertical-scroll-proportion="0.08173077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="root.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/vk/root.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="23" selection-start="75" selection-end="75" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
@@ -158,9 +158,11 @@
         <option value="$PROJECT_DIR$/app/controllers/root_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_view/helpers/asset_tag_helper.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/root/root.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/vk_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/vk/root.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -277,6 +279,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SharinatorWebUi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SharinatorWebUi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vk" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -792,16 +816,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="67" selection-end="71" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="25" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0">
@@ -880,16 +894,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/root/root.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="110" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
+        <state line="3" column="31" selection-start="113" selection-end="113" vertical-scroll-proportion="-1.9615384">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/root/root.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/vk/root.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="135" selection-end="135" vertical-scroll-proportion="0.17435898">
+        <state line="3" column="23" selection-start="75" selection-end="75" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="22" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/vk_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="32" selection-start="77" selection-end="77" vertical-scroll-proportion="0.08173077">
           <folding />
         </state>
       </provider>
