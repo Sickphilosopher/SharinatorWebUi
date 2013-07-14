@@ -19,7 +19,7 @@ class VkController < ApplicationController
 		jsonRes = JSON.parse res.body
 
 		url = URI.parse( 'http://shariserver.herokuapp.com/vk?access_token=' +
-		"#{jsonRes[:access_token]}&user_id=#{jsonRes[:user_id]}&expires_in=#{jsonRes[:expires_in]}")
+		"#{jsonRes['access_token']}&user_id=#{jsonRes['user_id']}&expires_in=#{jsonRes['expires_in']}")
 
 		http = Net::HTTP.new( url.host, url.port )
 		res = http.get( url.to_s )
