@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/vk/root.html.erb" afterPath="$PROJECT_DIR$/app/views/vk/root.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/vk_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/vk_controller.rb" />
     </list>
     <ignored path="SharinatorWebUi.iws" />
@@ -23,7 +22,7 @@
     <file path="/a.xml" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373497454666" ignored="false" />
     <file path="/routes.rb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373654360284" ignored="false" />
     <file path="/root.html.erb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373808362855" ignored="false" />
-    <file path="/vk_controller.rb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373812199728" ignored="false" />
+    <file path="/vk_controller.rb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373812423266" ignored="false" />
     <file path="$PROJECT_DIR$/../SharinatorServer/app/controllers/vk_controller.rb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373804591663" ignored="false" />
     <file path="/Gemfile" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373809777573" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,19 +71,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vk_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="vk_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/vk_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="14" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
+            <state line="20" column="109" selection-start="667" selection-end="667" vertical-scroll-proportion="0.77805483">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="root.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="root.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/vk/root.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="10" selection-start="85" selection-end="85" vertical-scroll-proportion="0.13144329">
+            <state line="3" column="10" selection-start="85" selection-end="85" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
@@ -168,8 +167,8 @@
         <option value="$PROJECT_DIR$/bin/bundle" />
         <option value="$PROJECT_DIR$/bin/rails" />
         <option value="$PROJECT_DIR$/bin/rake" />
-        <option value="$PROJECT_DIR$/app/controllers/vk_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/vk/root.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/vk_controller.rb" />
       </list>
     </option>
   </component>
@@ -847,16 +846,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/vk_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/vk/root.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
+        <state line="3" column="10" selection-start="85" selection-end="85" vertical-scroll-proportion="-1.9615384">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/vk/root.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/vk_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="10" selection-start="85" selection-end="85" vertical-scroll-proportion="0.13144329">
+        <state line="20" column="109" selection-start="667" selection-end="667" vertical-scroll-proportion="0.77805483">
           <folding />
         </state>
       </provider>
