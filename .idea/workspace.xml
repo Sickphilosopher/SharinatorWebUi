@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" name="Default" comment="">
+    <list default="true" id="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" name="Default" comment="добавлен контроллер  иже с ним">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/vk_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/vk_controller.rb" />
     </list>
     <ignored path="SharinatorWebUi.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373801579387" ignored="false" />
+    <file path="/Dummy.txt" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373813081671" ignored="false" />
     <file path="/application.html.erb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373498669287" ignored="false" />
     <file path="/a.html" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373497458251" ignored="false" />
     <file path="/a.rxml" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373497319003" ignored="false" />
@@ -22,7 +22,7 @@
     <file path="/a.xml" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373497454666" ignored="false" />
     <file path="/routes.rb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373654360284" ignored="false" />
     <file path="/root.html.erb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373808362855" ignored="false" />
-    <file path="/vk_controller.rb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373812835935" ignored="false" />
+    <file path="/vk_controller.rb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373813074860" ignored="false" />
     <file path="$PROJECT_DIR$/../SharinatorServer/app/controllers/vk_controller.rb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373804591663" ignored="false" />
     <file path="/Gemfile" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373809777573" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,7 +74,7 @@
       <file leaf-file-name="vk_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/vk_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="48" selection-start="774" selection-end="774" vertical-scroll-proportion="0.794686">
+            <state line="25" column="25" selection-start="807" selection-end="807" vertical-scroll-proportion="0.9178744">
               <folding />
             </state>
           </provider>
@@ -855,7 +855,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/vk_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="48" selection-start="774" selection-end="774" vertical-scroll-proportion="0.794686">
+        <state line="25" column="25" selection-start="807" selection-end="807" vertical-scroll-proportion="0.9178744">
           <folding />
         </state>
       </provider>
