@@ -22,7 +22,7 @@
     <file path="/a.xml" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373497454666" ignored="false" />
     <file path="/routes.rb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373654360284" ignored="false" />
     <file path="/root.html.erb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373808362855" ignored="false" />
-    <file path="/vk_controller.rb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373812423266" ignored="false" />
+    <file path="/vk_controller.rb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373812835935" ignored="false" />
     <file path="$PROJECT_DIR$/../SharinatorServer/app/controllers/vk_controller.rb" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373804591663" ignored="false" />
     <file path="/Gemfile" changelist="91b7ed9d-9e02-47e7-93d4-c57fe54f4846" time="1373809777573" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,7 +74,7 @@
       <file leaf-file-name="vk_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/vk_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="8" selection-start="637" selection-end="637" vertical-scroll-proportion="0.794686">
+            <state line="22" column="48" selection-start="774" selection-end="774" vertical-scroll-proportion="0.794686">
               <folding />
             </state>
           </provider>
@@ -855,7 +855,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/vk_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="637" selection-end="637" vertical-scroll-proportion="0.794686">
+        <state line="22" column="48" selection-start="774" selection-end="774" vertical-scroll-proportion="0.794686">
           <folding />
         </state>
       </provider>
