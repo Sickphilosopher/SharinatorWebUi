@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="737060069">
-    <data-source source="LOCAL" name="Rails SharinatorWebUi: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="0e1e0e28-6278-47bf-ba24-e0941166dd37">
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Sites\SharinatorWebUi\db\development.sqlite3</jdbc-url>
+  <component name="DataSourceManagerImpl" format="xml" hash="1722879435">
+    <data-source source="LOCAL" name="Rails SharinatorWebUi: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="f4d2db51-7779-44c3-ae79-f56197131c3b">
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/shui-develop</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdadfd8dfc3dfdcdfcfdfde</user-password>
       <libraries>
         <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/xerial-sqlite-license.txt</url>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
         </library>
         <library>
-          <url>jar://$USER_HOME$/.RubyMine50/config/jdbc-drivers/sqlite-jdbc-3.7.2.jar!/</url>
+          <url>jar://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.26-bin.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails SharinatorWebUi: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="26c3ad98-b534-41b2-9cb4-6156f5de5ab4">
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/shui-test</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdadfd8dfc3dfdcdfcfdfde</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.26-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails SharinatorWebUi: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="0ea86fc5-8d83-4b2b-b554-da2c1ae2fadd">
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/false</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.26-bin.jar</url>
         </library>
       </libraries>
     </data-source>
