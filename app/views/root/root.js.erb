@@ -1,0 +1,16 @@
+( function($){
+	$( '.login-button' ).click( function(){
+		var href = this.href;
+		var newWin = window.open( href, 'LoginWindow', 'width=400,height=200' );
+		if (newWin == null)
+			return true;
+
+		newWin.focus();
+
+		var timeout = setInterval( function(){
+			console.log( newWin.location.href );
+			console.log( document.location.href );
+		}, 1000 );
+		return false;
+	} );
+} )( jQuery );
