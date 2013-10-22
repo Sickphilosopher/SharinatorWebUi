@@ -1,0 +1,23 @@
+( function($){
+	$( '.login-button' ).click( function(){
+		var href = this.href;
+		var newWin = window.open( href, 'LoginWindow', 'width=400,height=200' );
+		if (newWin == null)
+			return true;
+
+		newWin.focus();
+
+		var interval = setInterval( function(){
+			if( newWin.location.href.indexOf( 'ok' ) != -1 )
+			{
+				newWin.close();
+				clearInterval( interval );
+				location.reload();
+			}
+
+			if( newWin.location.href.indexOf( 'error' ) != -1 )
+				alert( 'error' );
+		}, 1000 );
+		return false;
+	} );
+} )( jQuery );

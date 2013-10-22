@@ -1,7 +1,9 @@
 SharinatorWebUi::Application.routes.draw do
-  get "vk/root"
+	get "vk/root"
 	get "root/root"
-  get 'vk' => 'vk#root'
+	get 'vk' => 'vk#root'
+	get 'vk/ok'
+	get 'vk/error'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -246,8 +246,8 @@
 
 // We use these to control button text styles.
 // $button-font-family: inherit;
-// $button-font-color: #fff;
-// $button-font-color-alt: #333;
+ $button-font-color: #fff;
+ $button-font-color-alt: #FFF;
 // $button-font-med: emCalc(16px);
 // $button-font-tny: emCalc(11px);
 // $button-font-sml: emCalc(13px);
@@ -968,8 +968,8 @@
 //
 
 // Background color for the top bar
-// $topbar-bg: #111;
-
+$topbar-bg: #000000;
+// theme colors: 000000 263248 7E8AA2 FFFFFF FF9800
 // Height and margin
 // $topbar-height: 45px;
 // $topbar-margin-bottom: emCalc(30px);
@@ -982,7 +982,7 @@
 // $topbar-title-font-size: emCalc(17px);
 
 // Set the link colors and styles for top-level nav
-// $topbar-link-color: #fff;
+$topbar-link-color: #FF9800;
 // $topbar-link-weight: bold;
 // $topbar-link-font-size: emCalc(13px);
 
@@ -995,7 +995,7 @@
 // $dropdown-label-color: #555;
 
 // Top menu icon styles
-// $topbar-menu-link-transform: uppercase;
+//$topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: emCalc(13px);
 // $topbar-menu-link-weight: bold;
 // $topbar-menu-link-color: #fff;

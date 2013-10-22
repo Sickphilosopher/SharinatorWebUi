@@ -1,5 +1,10 @@
-<a href="https://oauth.vk.com/authorize?
+<div class="row">
+	<div class="large-3 large-centered columns">
+	    <a href="https://oauth.vk.com/authorize?
 client_id=3759886&
-scope=friends,events&
-redirect_uri=http://sharinator-web-ui.herokuapp.com/vk&
-response_type=code">sth</a>
+scope=friends,events,offline&
+redirect_uri=http://<%=@hostname%>/vk&
+response_type=code" class="button radius large login-button">LOGIN WITH VK</a>
+	</div>
+</div>
+<%= javascript_include_tag '/root/root' %>
