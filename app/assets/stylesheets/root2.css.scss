@@ -1,0 +1,29 @@
+@import 'colors';
+
+.welcome{
+	background-color: $color5;
+	height: 490px;
+	padding-top: 100px;
+
+	.jake{
+		position: absolute;
+		top: 90px;
+		width: 198px;
+		height: 281px;
+		background: url( 'root/jake.png' ) no-repeat;
+	}
+
+	.bubble{
+		position: absolute;
+		top:-120px;
+		left: 147px;
+		width: 216px;
+		height: 243px;
+		background: url( 'root/text-bubble.png' ) no-repeat;
+	}
+
+	.welcome-text{
+		color: $color3;
+		font-size: 24px;
+	}
+}

@@ -5,5 +5,8 @@ class RootController < ApplicationController
 			format.html
 			format.js
 		end
+		end
+
+	def root2
 	end
 end
